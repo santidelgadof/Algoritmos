@@ -21,6 +21,12 @@ procedimiento ordenacionauxiliar (v[iz...dr])
       fin si
       ordenacionauxiliar(v[iz..j-1]);
       ordenacionauxiliar(v[j+1..dr]);
+     fin si
+  fin procedimiento
+  
+  procedimiento ordenar (v[1..n])
+   ordenacionauxiliar (v[1..n])
+  finprocedimiento   
 
 
       
