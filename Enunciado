@@ -17,6 +17,10 @@ procedimiento ordenacionauxiliar (v[iz...dr])
       fin si
       fin mientras
       si j>iz entonces 
-        intercambiar (v[]
+              intercambiar (v[j], v[iz]);
+      fin si
+      ordenacionauxiliar(v[iz..j-1]);
+      ordenacionauxiliar(v[j+1..dr]);
+
 
       
