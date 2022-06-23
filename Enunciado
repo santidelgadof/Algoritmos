@@ -1,4 +1,8 @@
 procedimiento ordenacionauxiliar (v[iz...dr])
   si izq< dr entonces 
     mitad = (izq + dr) div 2;
-    intercambiar (v[iz], v[mitad])
+    intercambiar (v[iz], v[mitad]);
+    x:= v[iz];
+    i:=iz+1;
+    j:= dr;
+    mientras
