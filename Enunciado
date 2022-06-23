@@ -29,4 +29,13 @@ procedimiento ordenacionauxiliar (v[iz...dr])
   finprocedimiento   
 
 
+ENUNCIADO:
+
+copie las practicas 
+implemente en c el pseudocodigo 
+  void ordenar(int v [], int n);
+validar algoritmo 
+calcule complejidad de ordenacion -> ascendente, descendente o desordenado 
+  
+
       
