@@ -1,0 +1,46 @@
+EXAMEN PRACTICO 23 junio
+
+AUTOR: Santiago Delgado Ferreiro      Login: santiago.delgadof@udc.es
+Grupo: 3.2
+
+1.CARACTERÍSTICAS DEL ORDENADOR QUE SE USÓ: 
+
+	Memoria -> 7,6 GiB
+	Procesador -> Intel® Core™ i5-1035G1 CPU @ 1.00GHz × 8
+	Graficos -> Mesa Intel® UHD Graphics (ICL GT1)
+	Ubuntu -> 20.04.3 LTS
+	Tipo de SO -> 64 bits
+	Disco -> 70 GB
+  
+2. Unidades de medida:
+  Los tiempos se expresarán en microsegundos (ms).
+  
+  
+3. Método:
+
+
+   Para esta práctica utilizamos 2 cotas (subestimada y sobreestimada) para
+   llegar a los resultados de la cota ajustada.
+
+   k = 1000 <- En caso de que el tiempo de ejecución sea muy pequeño
+   se calculará una media de k ejecuciones del algoritmo.
+
+4. Resultados:
+     ~  ~
+
+ - Cota subestimada (sub): n
+ - Cota ajustada (aj): n
+ - Cota sobreestimada (sob): n
+
+      n              t(n)          t(n)/sub           t(n)/aj            t(n)/sob
+                                                       cte. = x
+                            (*) Tiempo promedio en 1000 ejecuciones
+  5. Conclusión:
+    Teniendo en cuenta los resultados obtenidos en las tablas de los tiempos
+    del anterior algoritmo podemos afirmar que:
+
+  > 
+    
+  > 
+
+  > 
