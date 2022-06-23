@@ -11,5 +11,12 @@ procedimiento ordenacionauxiliar (v[iz...dr])
       fin mientras
        mientras j>iz y v[j]>=x hacer 
         j:=j-1;
-      fin mientras 
+       fin mientras 
+      si i<j entonces
+        intercambiar (v[i], v[j])
+      fin si
+      fin mientras
+      si j>iz entonces 
+        intercambiar (v[]
+
       
