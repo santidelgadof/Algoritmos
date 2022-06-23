@@ -5,4 +5,11 @@ procedimiento ordenacionauxiliar (v[iz...dr])
     x:= v[iz];
     i:=iz+1;
     j:= dr;
-    mientras
+    mientras i<= j hacer 
+      mientras i<= dr y v[i]<x hacer 
+        i:= i+1;
+      fin mientras
+       mientras j>iz y v[j]>=x hacer 
+        j:=j-1;
+      fin mientras 
+      
